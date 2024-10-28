@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.button-color{
+    background-color:#FE8C45 ;
+    color: white;
+    border-radius: 30px;
+}
+.text-color{
+    color: #8A47F6;
+}
+.large-text{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.background-color{
+    background-color: #ddd4ea;
+}
+.Portfolio{
+    border-radius: 10px;
+}
+.row-1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+}
+.column{
+    grid-column: span 3;
+    width: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
